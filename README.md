@@ -1,14 +1,14 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:2b2b2b&height=170&section=header&text=yuvi&fontSize=64&fontColor=ffffff&fontAlignY=38&desc=systems%2C%20tools%2C%20and%20things%20I%20actually%20want%20to%20use&descSize=16&descAlignY=60" alt="header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:16294d&height=210&section=header&text=Yuvi%20S&fontSize=64&fontColor=ffffff&fontAlignY=35&desc=systems%2C%20tools%2C%20and%20things%20I%20actually%20want%20to%20use&descSize=16&descAlignY=68" alt="Yuvi S" />
 
 <a href="https://github.com/Yuv1s">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=2800&pause=900&color=C9D1D9&center=true&vCenter=true&width=640&lines=student+developer+%C2%B7+builder+%C2%B7+CTF+player;rust+%2B+webassembly+for+things+that+must+be+correct;flutter+%2B+firebase+for+things+people+actually+use;building+Zetesis;build+it.+understand+it.+break+it.+fix+it.+ship+it." alt="typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=2800&pause=900&color=3D7BFF&center=true&vCenter=true&width=640&lines=student+developer+%C2%B7+CTF+player;Rust+and+WebAssembly+where+correctness+matters;Flutter+and+Firebase+where+people+use+it;building+Zetesis;build+it.+understand+it.+break+it.+fix+it.+ship+it." alt="typing intro" />
 </a>
 
 <br><br>
 
-[![Zetesis](https://img.shields.io/badge/Zetesis-zetesis.dev-111111?style=for-the-badge&logo=githubpages&logoColor=white)](https://zetesis.dev)
+[![Zetesis](https://img.shields.io/badge/Zetesis-zetesis.dev-3D7BFF?style=for-the-badge&logo=githubpages&logoColor=white&labelColor=111111)](https://zetesis.dev)
 [![Trawl](https://img.shields.io/badge/Trawl-open_source-111111?style=for-the-badge&logo=rust&logoColor=white)](https://github.com/Yuv1s/Trawl)
 [![EzRegex](https://img.shields.io/badge/EzRegex-live_tool-111111?style=for-the-badge&logo=react&logoColor=white)](https://ezregex.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-connect-111111?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yuv1)
@@ -19,26 +19,26 @@
 
 <br>
 
-I build across application development, cloud, cybersecurity, automation, and AI. I'm still a student, but most of what I learn comes from shipping systems, breaking things, fixing them, and understanding why they broke.
+I build across application development, cloud, security, automation, and AI. I'm a student, and most of what I know comes from shipping systems, breaking them, fixing them, and working out why they broke.
 
-> I use AI to move faster, not to outsource the thinking. If I can't explain the code, test the edge cases, and account for the security decisions, I don't ship it.
+> I use AI to move faster, not to do my thinking. If I can't explain the code, test the edge cases, and account for the security decisions, I don't ship it.
 
-## now
+## Now
 
 | | |
 |---|---|
-| building | [Trawl](https://github.com/Yuv1s/Trawl), a browser-based CTF toolkit in Rust and WebAssembly |
-| building | [Zetesis](https://zetesis.dev), my software studio, and Sustain, a maintenance agent for custom apps |
+| building | [Trawl](https://github.com/Yuv1s/Trawl), a browser-based CTF toolkit written in Rust and WebAssembly |
+| building | [Zetesis](https://zetesis.dev), my software studio, and Sustain, its maintenance agent for custom apps |
 
-## zetesis
+## Zetesis
 
 <table>
 <tr>
 <td width="62%" valign="top">
 
-Zetesis is the studio I run under [Zetesis-dev](https://github.com/Zetesis-dev). It's where my application, AI, and automation work lives, and where I turn the tools I keep wishing existed into products.
+Zetesis is the studio I run at [Zetesis-dev](https://github.com/Zetesis-dev). It's home to my application, AI, and automation work, and it's where the tools I keep wishing existed get built. Sustain, its maintenance agent for custom apps, is the product I'm working on now.
 
-Same rules as everything else I ship: I have to be able to explain it, test it, and defend its security decisions.
+It follows the same rule as everything else I ship: I have to be able to explain it, test it, and defend its security decisions.
 
 [zetesis.dev](https://zetesis.dev) · [github org](https://github.com/Zetesis-dev) · [linkedin](https://linkedin.com/company/zetesis-dev)
 
@@ -54,10 +54,10 @@ Same rules as everything else I ship: I have to be able to explain it, test it, 
 </tr>
 </table>
 
-## featured projects
+## Featured Projects
 
 <details open>
-<summary><b>Trawl</b> · browser-based CTF toolkit</summary>
+<summary>Trawl · browser-based CTF toolkit</summary>
 
 <br>
 
@@ -69,44 +69,35 @@ A few decisions behind it matter more to me than the feature count:
 * the analysis core is written in Rust and compiled to WebAssembly
 * the core has zero runtime dependencies
 * parsers, detectors, decoders, and attacks are implemented inside the project
-* detectors are tested against known-positive files and clean controls instead of being trusted because they "look right"
+* detectors are tested against known-positive files and clean controls, not trusted because they look right
 
-I like tools that let me get close to the mechanism. Trawl gives me an excuse to do exactly that.
+I like tools that let me get close to the mechanism, and Trawl gives me an excuse to do exactly that.
 
 [try it](https://trawlctf.vercel.app) · [source](https://github.com/Yuv1s/Trawl) · [roadmap](https://github.com/Yuv1s/Trawl/blob/main/ROADMAP.md)
 
 </details>
 
 <details>
-<summary><b>EzRegex</b> · regex playground with plain-English explanations</summary>
+<summary>EzRegex · regex playground with plain-English explanations</summary>
 
 <br>
 
-[EzRegex](https://github.com/Yuv1s/EzRegex) turns regular expressions into something easier to inspect. It highlights matches live and explains the pattern piece by piece using a hand-written tokenizer that walks through anchors, character classes, groups, escapes, quantifiers, alternation, and literals.
+[EzRegex](https://github.com/Yuv1s/EzRegex) makes regular expressions easier to inspect. It highlights matches live and explains a pattern piece by piece, using a hand-written tokenizer that walks through anchors, character classes, groups, escapes, quantifiers, alternation, and literals. The whole app runs client-side, with no backend and no API key.
 
-The app runs client-side with no backend or API key.
-
-This repo is also a pretty good example of how I work with AI. Scaffolding and repetitive work can be accelerated. The tokenizer, behavior, product decisions, and the parts I actually need to understand stay mine.
+It's also a fair picture of how I work with AI. Scaffolding and repetitive work can be sped up. The tokenizer, the behavior, the product decisions, and anything I need to understand stay mine.
 
 [open the app](https://ezregex.vercel.app) · [source](https://github.com/Yuv1s/EzRegex)
 
 </details>
 
-<br>
+## What I'm Working Toward
 
-<p align="center">
-  <a href="https://github.com/Yuv1s/Trawl"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Yuv1s&repo=Trawl&theme=dark&hide_border=true&bg_color=0d1117" alt="Trawl" /></a>
-  <a href="https://github.com/Yuv1s/EzRegex"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Yuv1s&repo=EzRegex&theme=dark&hide_border=true&bg_color=0d1117" alt="EzRegex" /></a>
-</p>
+I'm drawn to the parts of software that make you understand what is happening underneath the abstraction. That pulls me toward developer tooling, security, cloud systems, and automation, and toward projects where correctness matters more than a good-looking demo.
 
-## what I'm working toward
-
-I'm interested in the parts of software that force you to understand what is actually happening underneath the abstraction. That pulls me toward developer tooling, security, cloud systems, automation, and projects where correctness matters more than making the demo look impressive.
-
-I also compete in cybersecurity and spend time on Windows and Linux hardening, scripting, forensics, cryptography, and reverse engineering. It has made me a lot more suspicious of assumptions, which is a good habit when writing software.
+I also compete in cybersecurity, and I spend time on Windows and Linux hardening, scripting, forensics, cryptography, and reverse engineering. It has made me more suspicious of assumptions, which is a useful habit when you write software.
 
 <details>
-<summary><b>what I tend to work with</b></summary>
+<summary>What I Tend to Work With</summary>
 
 <br>
 
@@ -125,22 +116,14 @@ AI and automation: `OpenAI API` `Fine-tuning` `Prompt Engineering` `Workflow Aut
 <br>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=rust,python,js,ts,react,svelte,flutter,dart,aws,firebase,gcp,cloudflare,mysql,bash,git,vercel" alt="Technologies I work with" />
+  <img src="https://skillicons.dev/icons?i=rust,python,js,ts,react,svelte,flutter,dart,aws,firebase,gcp,cloudflare,mysql,git,vercel" alt="Technologies I work with" />
 </p>
 
-## activity
+## Activity
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Yuv1s&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=c9d1d9&icon_color=8b949e" alt="github stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yuv1s&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=c9d1d9" alt="top languages" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Yuv1s&theme=dark&hide_border=true&background=0d1117" alt="streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Yuv1s&theme=github-compact&hide_border=true&bg_color=0d1117&color=c9d1d9&line=8b949e&point=ffffff" alt="contribution graph" />
+  <img width="49%" src="https://raw.githubusercontent.com/Yuv1s/Yuv1s/main/profile-summary-card-output/github_dark/3-stats.svg" alt="GitHub stats" />
+  <img width="49%" src="https://raw.githubusercontent.com/Yuv1s/Yuv1s/main/profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Most used languages by commit" />
 </p>
 
 ---
